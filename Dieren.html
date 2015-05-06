@@ -3,6 +3,8 @@
   <head>
 	<title>Dieren</title>
 	<link rel= "stylesheet" type= "text/css" href= "stylesheet.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js."></script>
+	<script type="text/javascript" src="script.js"></script>
   </head>
   <body>
 	<div id="nav">
@@ -63,7 +65,8 @@
 	  <p>Een dier voeg je toe door het onderstaande formulier in te vullen en op de "toevoegen" knop klikt. (Alle informatie in het formulier dient ingevuld te zijn wil je het dier kunnen toevoegen)</p>	
 	  <form>
 		<label for="naam">Naam</label>
-		<input type="text" id="naam" />
+		<input type="text" id="naam" onfocus="document.getElementsByClassName('hidden').style.visibility='visible'" onblur="document.getElementsByClassName('hidden').style.visibility='hidden'"/>
+		<p class="hidden">Dit is verplicht</p>
 		<br>
 		
 		<label for="leeftijd">Leeftijd</label>
