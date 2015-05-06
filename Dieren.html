@@ -5,7 +5,7 @@
 	<link rel= "stylesheet" type= "text/css" href= "stylesheet.css">
   </head>
   <body>
-	<header>
+	<div id="nav">
 	  <img src="DierenAsiel.jpg" width="400" height="330"/>
 	  <h1>Welke dieren hebben wij?</h1>
 	  <p>Wij bieden onderdak aan de volgende dieren:</p>
@@ -14,7 +14,7 @@
 		<li><a href="#Katten">Katten</a></li>
 	  </ul>
 	  <br>
-	</header>
+	</div>
 	
 	<div id="Katten">
 	  <h2>Wij hebben de volgende katten in ons assortiment:</h2>
@@ -78,12 +78,9 @@
 		<input type="checkbox" id="gereserveerd" />
 		<br>
 		
-		<input type="radio" name="diersoort" id="diersoorthond" value="hond" checked></input>
-	    <label for="diersoorthond">Hond</label>
-		<br>
-		
-		<input type="radio" name="diersoort" id="diersoortkat" value="kat"></input>
-		<label for="diersoortkat">Kat</label>
+		<label for="diersoort">Diersoort</label>
+		<input type="radio" name="diersoort" value="hond" checked>Hond</input>		
+		<input type="radio" name="diersoort" value="kat">Kat</input>
 		<br>
 		
 		<input type="submit" value="Toevoegen" />
