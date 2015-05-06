@@ -1,0 +1,212 @@
+body {
+	font-family: 'Arial', cursive;
+	font-size: 14px;
+}
+
+a {
+	color: #339933;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+/*
+#nav ul{
+	border: 1px solid #050709;
+	border-radius: 10px;
+	background-color: #5E6A67;
+	height:60px;
+	margin-top: none;
+	margin-left: 20.1%;
+	margin-right: 19%; /* vanwege border radius 10 moet het 383 - 20 zijn.*
+	list-style-type: none;
+}
+
+#nav ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#nav li{
+	float: left;
+}
+
+/*Tekst decoratie van de navigator.  *
+#nav ul a {
+	color:white;
+	padding-left: 32px;
+	padding-right: 32px;
+	text-decoration: none; /*voor geen linkjes bar onder de woorden etc *
+	line-height: 60px;
+	font-size: 20px;
+	background-repeat:no-repeat;
+	display:block;
+}
+/*Als je over de button gaat krijg je een pointer muisknop ipv normale.  *
+#nav ul li{
+	float:left;
+	cursor: pointer;
+}
+/* Animatie voor als je op een van de buttons in de navigator klikt. *
+#nav ul li:hover{
+	background: #d3d3d3;
+	background: linear-gradient(top, #d3d3d3 0%, #5E6A67 10%);
+	background: -moz-linear-gradient(top, #d3d3d3 0%, #5E6A67 10%);
+	background: -webkit-linear-gradient(top, #d3d3d3 0%,#5E6A67 10%);
+}
+
+#nav ul li a:hover{
+	color: yellow;
+}
+/*Plaatsing dropdown menu  *
+#nav ul li ul {
+	background: #5E6A67;
+	border: none;
+	position: absolute;
+	top: 201px;
+	left: 155px;
+	width: 100px;
+	display: inline;
+	opacity: 0;
+	visibility: hidden;
+}
+
+#nav ul li ul a{
+	padding: 0;
+}
+/*Design buttons in het dropdown menu.  *
+#nav ul li ul li { 
+	text-align: center;
+	margin-left: -40px;
+	background: #5E6A67;
+	display: block; 
+	text-shadow: 0 -1px 0 #000;
+	float: none;
+	border: 1px solid #050709;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+/*Animatie voor de button in het dropdown menu  *
+#nav ul li ul li:hover {
+	background: #5E6A67;
+	background: linear-gradient(top, #d3d3d3 0%, #5E6A67 5%);
+	background: -moz-linear-gradient(top, #d3d3d3 0%, #5E6A67 5%);
+	background: -webkit-linear-gradient(top, #d3d3d3 0%,#5E6A67 5%);
+}
+
+#nav ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+/*Begin Image bar onder de navigator met het dropdown menu *
+/*Design voor de button om terug te gaan in de imge slider.  *
+td.previous { 
+	border: 1px solid #050709;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: #d3d3d3;
+}
+/* Design voor de tekst in die button *
+td.previous a{
+	text-decoration:none;
+	color: #050709;
+}
+
+td.next { 
+	border: 1px solid #050709;
+	border-radius: 10px;
+	padding: 30px;
+	text-decoration:none;
+	background-color: #d3d3d3;
+}
+
+td.next a {
+	text-decoration:none;
+	color: #050709;
+}
+
+/*Grote, breedte, border imagebar  *
+#imagebar {
+	border: 2px solid #050709;
+	border-radius: 10px;
+	width: 1155px;
+	height: 540px;
+	background-color: #5E6A67;
+	margin-left: 382px;
+}
+
+#image {
+	clear: both;
+}
+
+#buttons {
+	float: left;
+}
+
+/*De div description en het design  *
+#description {
+	float: left;
+	clear: left;
+	width: 170px;
+	padding: 5px;
+}
+/*Div onder imagebar waar alle text zit etc. *
+#Page-info {
+	border: 2px solid #050709;
+	border-radius: 10px;
+	width: 1155px;
+	height: auto;
+	background-color: #5E6A67;
+	margin-left: 382px;
+}
+/*Div in page-info waar alle tekst komt te zitten van de artikelen.  *
+#textbox {
+	margin: 0.5%;
+	background: #d3d3d3;
+	height: 97.5%;
+	border-radius: 10px;
+	border: 1px solid #050709;
+}
+
+#text {
+	font-family: 'Poiret One', cursive;
+	margin: 0.5%
+}
+
+#text h1 {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+}
+
+#map_canvas {
+    width: 500px;
+    height: 400px;
+    background-color: #CCC;
+}
+
+/*Voor plaatje in de content op index.html *
+#imageFront {
+	float: right;
+	width: 640px;
+	height: 360px;
+}
+
+/*Footer, onderste gedeelte van de webpagina*
+
+footer {
+	margin-bottom: 0px;
+	border: 2px solid #050709;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: none;
+	border-bottom-right-radius: none;
+	width: 1155px;
+	background-color: #5E6A67;
+	margin-left: 382px;
+	display: block;
+} */
