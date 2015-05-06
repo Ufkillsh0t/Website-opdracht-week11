@@ -55,5 +55,39 @@
 	  </table>
 	</div>
 	
+	<br>
+	
+	<div id="DierToevoegen">
+	  <h2>Dieren Toevoegen</h2>
+	  <p>Een dier voeg je toe door het onderstaande formulier in te vullen en op de "toevoegen" knop klikt. (Alle informatie in het formulier dient ingevuld te zijn wil je het dier kunnen toevoegen)</p>	
+	  <form>
+		<label for="naam">Naam</label>
+		<input type="text" id="naam" />
+		<br>
+		
+		<label for="leeftijd">Leeftijd</label>
+		<input type="number" id="leeftijd" />
+		<br>
+		
+		<label for="regNR">Reg. Nr.</label>
+		<input type="number" id="regNR" />
+		<br>
+		
+		<label for="gereserveerd">Gereserveerd</label>
+		<input type="checkbox" id="gereserveerd" />
+		<br>
+		
+		<input type="radio" name="diersoort" id="diersoorthond" value="hond" checked></input>
+	    <label for="diersoorthond">Hond</label>
+		<br>
+		
+		<input type="radio" name="diersoort" id="diersoortkat" value="kat"></input>
+		<label for="diersoortkat">Kat</label>
+		<br>
+		
+		<input type="submit" value="Toevoegen" />
+	  </form>
+	</div>
+	
   </body>
 </html>
